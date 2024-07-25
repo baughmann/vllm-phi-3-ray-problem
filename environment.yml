@@ -1,0 +1,8 @@
+name: vllm_phi_3_ray_problem_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11.9
+  - pip
+  - pip:
+      - -r requirements.txt
